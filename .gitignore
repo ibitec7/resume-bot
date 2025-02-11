@@ -1,4 +1,4 @@
-src/venc
+src/venv
 ./venv
 ./workflow/__pycache__
 ./workflow/test.py
