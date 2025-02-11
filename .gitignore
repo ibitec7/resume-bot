@@ -1,0 +1,7 @@
+src/venc
+./venv
+./workflow/__pycache__
+./workflow/test.py
+./workflow/chroma_db
+./workflow/resume_db
+./workflow/job_db

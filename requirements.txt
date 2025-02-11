@@ -1,7 +1,6 @@
 ollama
 chromadb
 pdfplumber
-pydantic
 langchain
 langchain-core
 langchain-ollama
@@ -13,5 +12,8 @@ fastembed
 sentence-transformers
 elevenlabs
 streamlit
+pydantic
+pydantic-core
 pytesseract
 nltk
+tensorrt
