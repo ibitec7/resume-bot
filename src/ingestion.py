@@ -57,7 +57,7 @@ def load_vector_db(doc_path=DOC_PATH, persist_dir="./chroma_db", name="knowledge
     embedding = OllamaEmbeddings(model=EMBEDDING_MODEL)
 
     # Check if the vector store already exists
-    if os.path.exists(persist_dir) and os.listdir(persist_dir) and persist_dir == "./chroma_db":
+    if os.path.exists(persist_dir):
         # If it does, load the existing vector store
         vector_db = Chroma(
             collection_name=name,
