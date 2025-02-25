@@ -1,5 +1,5 @@
 ## Resume-Bot
-This is an implementation of a Retrieval Augmented Generation (RAG) pipeline for the Qwen-2.5 model to anlyze job descriptions in context of job descriptions. The RAG pipeline creates a vector database of the uploaded files and responds with relevant context it retrieves from the knowledge base.
+This is an implementation of a Retrieval Augmented Generation (RAG) pipeline for the Qwen-2.5 model to analyze resumes in context of job descriptions. The RAG pipeline creates a vector database of the uploaded files and responds with relevant context it retrieves from the knowledge base.
 
 ## Directories
 - **src/:** contains the source code for the RAG.
